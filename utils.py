@@ -2,6 +2,10 @@
 # Author: Sébastien Combéfis
 # Version: February 2, 2016
 
+import math
+from numpy.polynomial import Polynomial
+from scipy.integrate import quad
+
 def fact(n):
     """Computes the factorial of a natural number.
     
