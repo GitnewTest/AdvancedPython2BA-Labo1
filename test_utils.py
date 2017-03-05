@@ -15,7 +15,7 @@ class TestUtils(unittest.TestCase):
         pass
     
     def test_integrate(self):
-        self.assertAlmostEqual(utils.integrate('x ** 2 - 1', -1, 1), -4/3)
+        self.assertAlmostEqual(utils.integrate("x ** 2 - 1", -1, 1), -4/3)
         pass
 
 if __name__ == '__main__':
